@@ -183,7 +183,7 @@
 <p>hwc@hwc:~/dpdk$ git checkout origin/20.11<br>Note: checking out ‘origin/20.11’.</p>
 <p>You are in ‘detached HEAD’ state. You can look around, make experimental<br>changes and commit them, and you can discard any commits you make in this<br>state without impacting any branches by performing another checkout.</p>
 <p>If you want to create a new branch to retain commits you create, you may<br>do so (now or later) by using -b with the checkout command again. Example:</p>
-<p>  git checkout -b <new-branch-name></new-branch-name></p>
+<p>  git checkout -b <new-branch-name></p>
 <p>HEAD is now at d2d894a55f Add: supports the “set link-up/link-down” command.<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>3、这时候 ls 命令就能看到你想要的代码</p>
 <p>hwc@hwc:~/dpdk$ ls<br>app         devtools  examples     lib          Makefile           mk      test<br>buildtools  doc       GNUmakefile  license      meson.build        pkg     usertools<br>config      drivers   kernel       MAINTAINERS  meson_options.txt  README<br>1<br>2<br>3<br>4<br>4、新建一个分支后，操作git log, git status等命令。</p>
 <p>hwc@hwc:~/dpdk$ git checkout -b dev-20.11<br>Switched to a new branch ‘dev-20.11’<br>1<br>2<br>到此，解决问题！</p>
