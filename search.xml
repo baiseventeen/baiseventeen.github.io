@@ -4,13 +4,25 @@
   
     
     <entry>
-      <title>图片测试</title>
-      <link href="/2025/04/14/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/"/>
-      <url>/2025/04/14/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</url>
+      <title>图片上传功能实现</title>
+      <link href="/2025/04/14/Hexo/%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0%E5%8A%9F%E8%83%BD%E5%AE%9E%E7%8E%B0/"/>
+      <url>/2025/04/14/Hexo/%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0%E5%8A%9F%E8%83%BD%E5%AE%9E%E7%8E%B0/</url>
       
-        <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><h2 id="gitee图片"><a href="#gitee图片" class="headerlink" title="gitee图片"></a>gitee图片</h2><p><img src="https://gitee.com/baiseventeen/image-save/raw/master/%E3%80%90%E5%93%B2%E9%A3%8E%E5%A3%81%E7%BA%B8%E3%80%9102%E6%8F%92%E7%94%BB-Twotwo.png" alt="【哲风壁纸】02插画-Twotwo"></p><h2 id="filename"><a href="#filename" class="headerlink" title="./$(filename)"></a>./$(filename)</h2><p><img src="4bdbd0c00f5b14fe7658cffbfabe8a75.jpg" alt="4bdbd0c00f5b14fe7658cffbfabe8a75"></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="图片上传功能实现"><a href="#图片上传功能实现" class="headerlink" title="图片上传功能实现"></a>图片上传功能实现</h1><h2 id="1-设置站点配置-config-yml"><a href="#1-设置站点配置-config-yml" class="headerlink" title="1.设置站点配置_config.yml"></a>1.设置站点配置_config.yml</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><h2 id="2-安装插件"><a href="#2-安装插件" class="headerlink" title="2.安装插件"></a>2.安装插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-asset-img --save</span><br></pre></td></tr></table></figure><h2 id="3-引入图片"><a href="#3-引入图片" class="headerlink" title="3.引入图片"></a>3.引入图片</h2><p>Typora设置图片插入时，插入位置为./${filename}<br>在文档中，图片的地址直接为图片名称即可，以下是个例子</p><p><img src="pictureName.png" alt="pictureName.png"></p><p><img src="image-20250415000631506.png" alt="image-20250415000631506"></p>]]></content>
       
       
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
       
     </entry>
     
